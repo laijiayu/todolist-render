@@ -13,6 +13,9 @@
   "engines": {
     "node": "18.17.1"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "dependencies": {
     "abbrev": "^1.1.1",
     "anymatch": "^3.1.3",
@@ -24,7 +27,6 @@
     "concat-map": "^0.0.1",
     "debug": "^4.3.4",
     "fill-range": "^7.0.1",
-    "fsevents": "*",
     "glob-parent": "^5.1.2",
     "has-flag": "^3.0.0",
     "ignore-by-default": "^1.0.1",
